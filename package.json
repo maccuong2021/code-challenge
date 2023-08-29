@@ -1,0 +1,17 @@
+{
+  "name": "sum-to-n",
+  "version": "1.0.0",
+  "description": "CLI utility to compute sum from 1 to n using TypeScript",
+  "main": "dist/problem4/sum.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/problem4/sum.js"
+  },
+  "keywords": [],
+  "author": "cuong",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "typescript": "^5.0.0"
+  }
+}
