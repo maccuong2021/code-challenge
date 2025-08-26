@@ -20,7 +20,7 @@ const input = process.argv[2];
 const n = parseInt(input);
 
 if (isNaN(n)) {
-    console.error("❌ Please provide a valid integer.");
+    console.error("Please provide a valid integer.");
     process.exit(1);
 }
 
